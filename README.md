@@ -17,9 +17,8 @@ The platform includes:
 
 ## ⚡ Tech Stack
 - **Backend:** ASP.NET Core 9, EF Core
-- **Frontend:** React 18, Vite, Tailwind CSS
 - **Database:** SQL Server
-- **Tools:** Docker, Swagger
+- **Tools:** Swagger
 
 ---
 
@@ -54,42 +53,6 @@ The platform includes:
    ```
    https://localhost:5001/swagger
    ```
-
----
-
-### Frontend Setup
-1. Navigate to React app folder:
-   ```bash
-   cd frontend
-   ```
-2. Install dependencies:
-   ```bash
-   npm install
-   ```
-3. Start development server:
-   ```bash
-   npm run dev
-   ```
-4. Open in browser:
-   ```
-   http://localhost:5173
-   ```
-
----
-
-## 🐳 Run with Docker
-Build and run API + SQL Server with Docker:
-```bash
-docker-compose up --build
-```
-
----
-
-## ✅ Features
-- ✅ Product catalog with advanced configuration options
-- ✅ React + Tailwind responsive UI
-- ✅ Swagger for API documentation
-- ✅ Ready for Docker-based deployment
 
 ---
 
